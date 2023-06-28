@@ -10,6 +10,50 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- background -->
+  <div class="background"></div>
+  <!-- form -->
+  <div class="container">
+    <div class="inputs-container" id="inputs-container">
+      <h2 id="inputs-heading">Create a Custom Countdown</h2>
+      <label for="title">Title</label>
+      <input type="text" name="title" id="title">
+      <label for="date">Date</label>
+      <input type="datetime-local" name="date" id="date">
+      <button id="submit">Submit</button>
+    </div>
+    <div class="countdown-container" id="countdown-container" hidden>
+      <h2 id="countdown-heading"></h2>
+      <div class="date">
+        <div class="date-container">
+          <span id="days">1</span>
+          <span>DAYS</span>
+        </div>
+        <div class="date-container">
+          <span id="hours">1</span>
+          <span>HOURS</span>
+        </div>
+        <div class="date-container">
+          <span id="minutes">1</span>
+          <span>MINUTES</span>
+        </div>
+        <div class="date-container">
+          <span id="seconds">1</span>
+          <span>SECONDS</span>
+        </div>
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="complete-container" id="complete-container" hidden>
+      <h2 id="complete-heading">Countdown Complete!</h2>
+      <div class="text">
+        <span id="complete-title"></span>
+        <span> finished on </span>
+        <span id="complete-date"></span>
+      </div>
+      <button id="newCountdown">New Countdown</button>
+    </div>
+  </div>
   <!-- script -->
   <script src="script.js"></script>
 </body>

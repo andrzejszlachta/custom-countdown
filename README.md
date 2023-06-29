@@ -11,7 +11,7 @@ LIVE: https://andrzejszlachta.github.io/custom-countdown/
 
 ## Overview
 
-description
+Set title and date to start your countdown.
 
 ### Built With
 
@@ -19,7 +19,9 @@ HTML, CSS, JavaScript
 
 ## Features
 
-1. feature 1
+1. Select title and date to start your countdown
+2. Reset your countdown whenever you want
+3. Your title and date are stored in localStorage - remains when you come back to the page.
 
 ## Contact
 
@@ -28,4 +30,4 @@ https://andrzejszlachta.github.io/
 
 ## Acknowledgements
 
-acknowledgments
+Background: pixabay.com  
